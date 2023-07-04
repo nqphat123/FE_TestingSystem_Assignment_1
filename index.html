@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <style>
+      .title {
+        font-size: 22px;
+        color: #d52828;
+      }
+    </style>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <div>Question 1</div>
+      <h1>Đây là thẻ H1</h1>
+      <h3>Đây là thẻ H3</h3>
+      <h4>Đây là thẻ H4</h4>
+      <h5>Đây là thẻ H5</h5>
+      <h6>Đây là thẻ H6</h6>
+      <h2>Đây là thẻ H2</h2>
+
+    <div>Question 2</div>
+    <h1>Danh Sach Lop Hoc</h1>
+    <ol>
+      <li>Nguyen Van B</li>
+      <li>Nguyen Van C</li>
+      <li>Nguyen Van A</li>
+    </ol>
+    <h1>A list in a list in a list</h1>
+      <li>Coffe</li>
+      <li>Tea</li>
+      <ul>
+        <li>Black Tea</li>
+        <li>Green tea</li>
+        <ul>
+          <li>China</li>
+          <li>Afica</li>
+        </ul>
+      </ul>
+      <li>Milk</li>
+      <br>
+      <ol>
+        <li>Com Trua</li>
+        <ul>
+          <li>Com chien hai san</li>
+          <li>Com chien duong chau</li>
+          <li>Com canh chua ca loc</li>
+        </ul>
+        <br>
+        <li>Trang Mieng Trai Cay</li>
+        <ul>
+          <li>Nho tuoi</li>
+          <li>Man</li>
+          <li>Chuoi</li>
+        </ul>
+      </ol>
+
+    <div>Question 3 - HTML Text Formatting</div>
+    <b>This text is bold.</b><br>
+    <i>This text is italic.</i><br>
+    <p>This is <sub>subscript</sub> and <sup>superscript</sup></p>
+    <p>This text is normal.</p>
+    <em>This text is emphasized.</em><br>
+    <b>HTML <small>Small</small> Formatting.</b><br>
+    <b>HTML <mark>Marked</mark> Formatting.</b><br>
+    <p>The del element represents deleted(removed) text.</p>
+    <p>My favorite color is <del>blue</del> black.</p>
+    <p>The ins element represent inserted(added) text.</p>
+    <p>My favorite <ins>color</ins> is black.</p><br>
+
+    <div class="q4">Question 4: form</div>
+    <form autocomplete="on">
+      <fieldset>
+        <legend><b>Register</b></legend>
+        <label for="fullname">Full Names<span style="color:red">*</span></label><br>
+        <input type="text" value="" placeholder="Input your fullname...."><br>
+
+        <label for="username">User Name<span style="color:red">*</span></label><br>
+        <input type="text" value="" placeholder="Input your username...."><br> 
+
+        <label for="password">Password<span style="color:red">*</span>/label><br>
+        <input type="text" value="" placeholder="Input your password...."><br>
+
+        <label for="email">Email<span style="color:red">*</span></label><br>
+        <input type="text" value="" placeholder="Input your email...."><br>   
+
+        <label for="telephonenumber">Telephone Number<span style="color:red">*</span></label><br>
+        <input type="text" value="" placeholder="Input your Telephone Number...."><br>
+
+        <label>Input Object:</label><br>
+        <input type="radio">Student
+        <input type="radio">Teacher
+        <br>
+
+        <label>Favorite:</label><br>
+        <input type="checkbox">Soccer
+        <input type="checkbox">Volleyball
+        <input type="checkbox">Basketball
+
+        <p>Address<span style="color:red">*</span><br>
+        <select>
+          <option>Viet Nam</option>
+          <option>Japan</option>
+          <option>Jamaica</option>
+        </select>
+        </p>    
+
+        <p>Birthday<span style="color:red">*</span><br>
+          <input type="date" name="Birthday">
+        </p>
+
+        <p>Your Picture<span style="color:red">*</span><br>
+          <input type="file" name="picture" accept="image/png, image/jpeg, image/jpg">
+        </p>
+        <button>Đăng ký</button>
+      </fieldset>
+    </form>
+
+    <p><b><i>5. Tạo các bảng dữ liệu</i></b></p>
+        <table border="1" cellpadding="5" >
+            <thead>
+            <tr>
+                <th align="center">Họ tên</th>
+                <th align="center">Ngày sinh</th>
+                <th align="center">Giới tính</th>
+            </tr>    
+            </thead>
+            <tbody>
+            <tr>
+                <td>Trần Anh Đức</td>
+                <td>03/08/1993</td>
+                <td>Nam</td>
+            </tr>
+            <tr>
+                <td>Kiều Thị Thu Hằng</td>
+                <td>04/09/1991</td>
+                <td>Nũ</td>
+            </tr>
+            <tr>
+                <td>Vương Thị Lê Na</td>
+                <td>06/10/1991</td>
+                <td>Nữ</td>
+            </tr>    
+            </tbody>
+        </table>
+        <br>
+        <table border="1" cellpadding="5">
+            <thead>
+            <tr>
+                <th colspan="2" align="center">Bảng điểm lớp 9B</th>
+                <th rowspan="2" align="center">Toán</th>
+                <th rowspan="2" align="center">Lý</th>
+                <th rowspan="2" align="center">Hóa</th>
+            </tr>    
+            </thead>
+            <tbody>
+            <tr>
+                <th align="center">STT</th>
+                <th align="center">Họ tên</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Trần Đức Anh</td>
+                <td>8.5</td>
+                <td>3.0</td>
+                <td>7.75</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Kiều Thị Thu Hằng</td>
+                <td>10</td>
+                <td>9.25</td>
+                <td>5.75</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Vương Thị Lê Na</td>
+                <td>2.25</td>
+                <td>6.0</td>
+                <td>7.75</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="4">Điểm trung bình cả lớp</td>
+            </tr>    
+            </tbody>
+        </table>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
